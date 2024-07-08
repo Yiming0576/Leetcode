@@ -1,15 +1,15 @@
 from collections import defaultdict
 
+# Sorting Approach
 def is_Anagram(s, t):
     sorted_t = sorted(t)
     sorted_s = sorted(s)
 
     return sorted_t == sorted_s
 
+# Default Hash Map Approach
 def isAnagram(s, t):
-
     count = defaultdict(int)
-
 
     for x in s:
         count[x] +=1
@@ -25,9 +25,8 @@ def isAnagram(s, t):
         
     return True
 
-
+# Array Approach
 def is_anagram(s, t):
-    
     count = [0] * 26
 
 

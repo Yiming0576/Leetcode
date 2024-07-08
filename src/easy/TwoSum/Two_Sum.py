@@ -1,5 +1,5 @@
 
-
+# # Brute Force Approach
 def two_sum(nums, target):
 
     n = len(nums)
@@ -17,7 +17,7 @@ print(result)
 
 
 
-
+# Hash Map Approach
 def twoSum(nums, target):
 
     numMap = {}
@@ -36,9 +36,7 @@ def twoSum(nums, target):
         
     return [] # No solution found
 
-
-
-
+# Hash Map Approach wiht one Map
 def two_sum(nums, target):
     
     numMap = {}
