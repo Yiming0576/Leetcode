@@ -6,12 +6,6 @@ def is_Anagram(s, t):
 
     return sorted_t == sorted_s
 
-
-
-result = is_Anagram("cat", "tac")
-print(f"result:  {result}")
-
-
 def isAnagram(s, t):
 
     count = defaultdict(int)
@@ -48,3 +42,10 @@ def is_anagram(s, t):
             return False
         
     return True
+
+
+
+result = isAnagram("cat", "tac")
+result = is_anagram("cat", "tac")
+result = is_Anagram("cat", "tac")
+print(f"result:  {result}")
